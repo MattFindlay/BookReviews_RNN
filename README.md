@@ -19,12 +19,13 @@ You will also need to have software to run and execute Jupyter Notebook.
 
 The code containing the model training is provided in the 'L3T20.ipynb' notebook file. You will be required to include the 'positive.txt' and 'negative.txt' files to execute the code. 
 
-# Dataset
+### Dataset
 
 The two applicable datasets are the contained in the 'positive.txt' and 'negative.txt' files. The 'positive.txt' dataset contains 872 positive reviews and the 'negative.txt' dataset contains 921 negative reviews. The mean number of words per review is 4.34 words.
 
 **Features**
 Tokenized reviews: The reviews are reduced to maximum 4 words and shorter reviews are padded. The 4 word reviews are tokenized. 
+
 **Target Variable**
 The book review sentiment, indicated by one-hot encoding - [1, 0] (positive) or [0, 1] (negative)
 
